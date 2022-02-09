@@ -12,6 +12,8 @@
 		F099194B27B2BEA8002781DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F099194A27B2BEA8002781DB /* Preview Assets.xcassets */; };
 		F099195227B2BFB4002781DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F099195127B2BFB4002781DB /* Assets.xcassets */; };
 		F099195527B2C204002781DB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099195427B2C204002781DB /* Color.swift */; };
+		F099195C27B3F146002781DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099195B27B3F146002781DB /* HomeView.swift */; };
+		F099196027B3F26C002781DB /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099195F27B3F26C002781DB /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F099194A27B2BEA8002781DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F099195127B2BFB4002781DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Resources/Assets.xcassets; sourceTree = "<group>"; };
 		F099195427B2C204002781DB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F099195B27B3F146002781DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F099195F27B3F26C002781DB /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				F099195327B2C1E9002781DB /* Extensions */,
+				F099195627B3F0FE002781DB /* Core */,
 				F099194327B2BEA6002781DB /* ScryptoApp.swift */,
 				F099194527B2BEA6002781DB /* ContentView.swift */,
 				F099195127B2BFB4002781DB /* Assets.xcassets */,
@@ -76,6 +81,55 @@
 				F099195427B2C204002781DB /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F099195627B3F0FE002781DB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F099195D27B3F247002781DB /* Components */,
+				F099195727B3F10E002781DB /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F099195727B3F10E002781DB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F099195A27B3F12A002781DB /* ViewModels */,
+				F099195827B3F11B002781DB /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F099195827B3F11B002781DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F099195B27B3F146002781DB /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F099195A27B3F12A002781DB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F099195D27B3F247002781DB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F099195E27B3F25D002781DB /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F099195E27B3F25D002781DB /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				F099195F27B3F26C002781DB /* CircleButtonView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F099194627B2BEA6002781DB /* ContentView.swift in Sources */,
+				F099195C27B3F146002781DB /* HomeView.swift in Sources */,
 				F099194427B2BEA6002781DB /* ScryptoApp.swift in Sources */,
+				F099196027B3F26C002781DB /* CircleButtonView.swift in Sources */,
 				F099195527B2C204002781DB /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
