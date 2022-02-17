@@ -19,6 +19,7 @@
 		F099196727B55807002781DB /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099196627B55807002781DB /* CoinRowView.swift */; };
 		F099196927B5589F002781DB /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099196827B5589F002781DB /* PreviewProvider.swift */; };
 		F099196B27B56212002781DB /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099196A27B56212002781DB /* Double.swift */; };
+		F0BF94E927BEA267008853FB /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF94E827BEA267008853FB /* NetworkingManager.swift */; };
 		F0F2C64C27B693C500350B0E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2C64B27B693C500350B0E /* HomeViewModel.swift */; };
 		F0F2C64F27B6A84F00350B0E /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2C64E27B6A84F00350B0E /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		F099196627B55807002781DB /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		F099196827B5589F002781DB /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		F099196A27B56212002781DB /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F0BF94E827BEA267008853FB /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		F0F2C64B27B693C500350B0E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		F0F2C64E27B6A84F00350B0E /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 		F099194227B2BEA6002781DB /* Scrypto */ = {
 			isa = PBXGroup;
 			children = (
+				F0BF94E727BEA22B008853FB /* Utilities */,
 				F0F2C64D27B6A81F00350B0E /* Services */,
 				F099195327B2C1E9002781DB /* Extensions */,
 				F099196327B536B3002781DB /* Models */,
@@ -161,6 +164,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F0BF94E727BEA22B008853FB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F0BF94E827BEA267008853FB /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F0F2C64D27B6A81F00350B0E /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +258,7 @@
 				F099194427B2BEA6002781DB /* ScryptoApp.swift in Sources */,
 				F099196027B3F26C002781DB /* CircleButtonView.swift in Sources */,
 				F099195527B2C204002781DB /* Color.swift in Sources */,
+				F0BF94E927BEA267008853FB /* NetworkingManager.swift in Sources */,
 				F099196227B42529002781DB /* CircleButtonAnimationView.swift in Sources */,
 				F099196927B5589F002781DB /* PreviewProvider.swift in Sources */,
 				F099196B27B56212002781DB /* Double.swift in Sources */,
