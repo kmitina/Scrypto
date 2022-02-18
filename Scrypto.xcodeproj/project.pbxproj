@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F09354F927C052F900654B9D /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09354F827C052F900654B9D /* NetworkingManager.swift */; };
 		F099194427B2BEA6002781DB /* ScryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099194327B2BEA6002781DB /* ScryptoApp.swift */; };
 		F099194627B2BEA6002781DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099194527B2BEA6002781DB /* ContentView.swift */; };
 		F099194B27B2BEA8002781DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F099194A27B2BEA8002781DB /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F09354F827C052F900654B9D /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		F099194027B2BEA6002781DB /* Scrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F099194327B2BEA6002781DB /* ScryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryptoApp.swift; sourceTree = "<group>"; };
 		F099194527B2BEA6002781DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F09354F727C052E500654B9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F09354F827C052F900654B9D /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F099193727B2BEA6002781DB = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		F099194227B2BEA6002781DB /* Scrypto */ = {
 			isa = PBXGroup;
 			children = (
+				F09354F727C052E500654B9D /* Utilities */,
 				F0F2C64D27B6A81F00350B0E /* Services */,
 				F099195327B2C1E9002781DB /* Extensions */,
 				F099196327B536B3002781DB /* Models */,
@@ -247,6 +258,7 @@
 				F099194427B2BEA6002781DB /* ScryptoApp.swift in Sources */,
 				F099196027B3F26C002781DB /* CircleButtonView.swift in Sources */,
 				F099195527B2C204002781DB /* Color.swift in Sources */,
+				F09354F927C052F900654B9D /* NetworkingManager.swift in Sources */,
 				F099196227B42529002781DB /* CircleButtonAnimationView.swift in Sources */,
 				F099196927B5589F002781DB /* PreviewProvider.swift in Sources */,
 				F099196B27B56212002781DB /* Double.swift in Sources */,
