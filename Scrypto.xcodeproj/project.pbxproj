@@ -10,6 +10,7 @@
 		F0329D4627C055EA00263679 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0329D4527C055EA00263679 /* CoinImageView.swift */; };
 		F0329D4827C0561300263679 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0329D4727C0561300263679 /* CoinImageViewModel.swift */; };
 		F0329D4A27C0563B00263679 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0329D4927C0563B00263679 /* CoinImageService.swift */; };
+		F065861627C6552B00BC667F /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F065861527C6552B00BC667F /* LocalFileManager.swift */; };
 		F09354F927C052F900654B9D /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09354F827C052F900654B9D /* NetworkingManager.swift */; };
 		F099194427B2BEA6002781DB /* ScryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099194327B2BEA6002781DB /* ScryptoApp.swift */; };
 		F099194627B2BEA6002781DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099194527B2BEA6002781DB /* ContentView.swift */; };
@@ -31,6 +32,7 @@
 		F0329D4527C055EA00263679 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		F0329D4727C0561300263679 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		F0329D4927C0563B00263679 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		F065861527C6552B00BC667F /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		F09354F827C052F900654B9D /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		F099194027B2BEA6002781DB /* Scrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F099194327B2BEA6002781DB /* ScryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryptoApp.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				F09354F827C052F900654B9D /* NetworkingManager.swift */,
+				F065861527C6552B00BC667F /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				F0F2C64F27B6A84F00350B0E /* CoinDataService.swift in Sources */,
 				F099196727B55807002781DB /* CoinRowView.swift in Sources */,
 				F0F2C64C27B693C500350B0E /* HomeViewModel.swift in Sources */,
+				F065861627C6552B00BC667F /* LocalFileManager.swift in Sources */,
 				F099194627B2BEA6002781DB /* ContentView.swift in Sources */,
 				F099195C27B3F146002781DB /* HomeView.swift in Sources */,
 				F0329D4627C055EA00263679 /* CoinImageView.swift in Sources */,
