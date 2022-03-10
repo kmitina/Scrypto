@@ -36,6 +36,7 @@
 		F099196727B55807002781DB /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099196627B55807002781DB /* CoinRowView.swift */; };
 		F099196927B5589F002781DB /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099196827B5589F002781DB /* PreviewProvider.swift */; };
 		F099196B27B56212002781DB /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099196A27B56212002781DB /* Double.swift */; };
+		F0E1545527DA47E400CD3D17 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1545427DA47E300CD3D17 /* HapticManager.swift */; };
 		F0F2C64C27B693C500350B0E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2C64B27B693C500350B0E /* HomeViewModel.swift */; };
 		F0F2C64F27B6A84F00350B0E /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2C64E27B6A84F00350B0E /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		F099196627B55807002781DB /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		F099196827B5589F002781DB /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		F099196A27B56212002781DB /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F0E1545427DA47E300CD3D17 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		F0F2C64B27B693C500350B0E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		F0F2C64E27B6A84F00350B0E /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 			children = (
 				F09354F827C052F900654B9D /* NetworkingManager.swift */,
 				F065861527C6552B00BC667F /* LocalFileManager.swift */,
+				F0E1545427DA47E300CD3D17 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				F065861A27C90B9800BC667F /* UIApplication.swift in Sources */,
 				F099194427B2BEA6002781DB /* ScryptoApp.swift in Sources */,
 				F099196027B3F26C002781DB /* CircleButtonView.swift in Sources */,
+				F0E1545527DA47E400CD3D17 /* HapticManager.swift in Sources */,
 				F065861827C905DD00BC667F /* SearchBarView.swift in Sources */,
 				F099195527B2C204002781DB /* Color.swift in Sources */,
 				F05C7EA027D2818F009BA5C1 /* CoinLogoView.swift in Sources */,
